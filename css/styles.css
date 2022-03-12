@@ -24,3 +24,12 @@
 .mouse-click{
  padding-top: 8%;
 }
+/* About us section */
+.about h2{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 2%;
+}
+.about p{
+  text-align: center;
+}
