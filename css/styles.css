@@ -40,9 +40,38 @@
   color: white;
   text-align: center;
   padding-top: 10%;  
-  padding-bottom: 10%
-  
+  padding-bottom: 10%;  
 }
 h2{
   text-transform:uppercase;
+  text-align: center;
+}
+/* what we do section */
+/* -----design */
+#designText,#developmentText,#productsText{
+  display: none;
+}
+.design{
+  padding-left: 0%;
+}
+#designImage{
+
+}
+/* -----development */
+.development{
+  padding-top: 3%;
+}
+#developmentImage{
+  
+}
+/* -----product management */
+.products{
+
+}
+.productsImage{
+
+}
+.work{
+  text-align: center;
+  padding-top: 3%;  
 }
