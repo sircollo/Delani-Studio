@@ -33,3 +33,16 @@
 .about p{
   text-align: center;
 }
+/* Service section */
+.services{
+  background-image: url("../images/s_image.jpg");
+  background-position: center center;
+  color: white;
+  text-align: center;
+  padding-top: 10%;  
+  padding-bottom: 10%
+  
+}
+h2{
+  text-transform:uppercase;
+}
