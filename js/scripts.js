@@ -8,6 +8,24 @@ $(document).ready(function () {
     $("#designText").hide();                       
     $("#designImage").show();
   });
+  $("#developmentImage").click(function () {               
+    $("#developmentImage").hide();                       // target development
+    $("#developmentText").show();
+    $("#developmentText h2").css("fontSize","16px");
+  });
+  $("#developmentText").click(function () {               
+    $("#developmentText").hide();                       // target development
+    $("#developmentImage").show();
+  });
+  $("#productsImage").click(function () {              
+    $("#productsImage").hide();                       // target products
+    $("#productsText").show();
+    $("#productsText h2").css("fontSize","16px");
+  });
+  $("#productsText").click(function () {               
+    $("#productsText").hide();                       // target products
+    $("#productsImage").show();
+  });
 
 
   });
