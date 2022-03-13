@@ -1,5 +1,5 @@
 /* header section */
-.header{
+.header {
   background-image: url("../images/h_img.jpg");
   background-size: cover;
   background-position: center center;
@@ -8,98 +8,105 @@
   text-transform: uppercase;
   color: white;
 }
-.logo{
+
+.logo {
   padding-top: 14%;
-  padding-bottom: 1%  
+  padding-bottom: 1%
 }
-.header h1{
+
+.header h1 {
   margin: 0;
   margin-bottom: 25px;
   font-size: 50px;
   font-weight: lighter;
 }
-.header p{
+
+.header p {
   margin: 0
 }
-.mouse-click{
- padding-top: 8%;
+
+.mouse-click {
+  padding-top: 8%;
 }
+
 /* About us section */
-.about h2{
+.about h2 {
   text-align: center;
   text-transform: uppercase;
   padding-top: 2%;
 }
-.about p{
+
+.about p {
   text-align: center;
 }
+
 /* Service section */
-.services{
+.services {
   background-image: url("../images/s_image.jpg");
   background-position: center center;
   color: white;
   text-align: center;
-  padding-top: 10%;  
-  padding-bottom: 10%;  
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
-h2{
-  text-transform:uppercase;
+
+h2 {
+  text-transform: uppercase;
   text-align: center;
 }
+
 /* what we do section */
 /* -----design */
-#designText,#developmentText,#productsText{
+#designText,
+#developmentText,
+#productsText {
   display: none;
 }
-.design{
+
+.design {
   padding-left: 0%;
 }
-#designImage{
 
-}
 /* -----development */
-.development{
+.development {
   padding-top: 3%;
 }
-#developmentImage{
-  
-}
+
 /* -----product management */
-.products{
-
-}
-.productsImage{
-
-}
-.work{
+.work {
   text-align: center;
-  padding-top: 3%;  
+  padding-top: 3%;
 }
 
 /* portfolio section */
-.portfolio{
+.portfolio {
   padding-top: 2%;
 }
-#work4Text h3, #work3Text h3, #work2Text h3, #work5Text h3,#work6Text h3, #work7Text h3, #work8Text h3, #work1Text h3{
+
+#work4Text h3,
+#work3Text h3,
+#work2Text h3,
+#work5Text h3,
+#work6Text h3,
+#work7Text h3,
+#work8Text h3,
+#work1Text h3 {
   display: none;
 }
 
-/* .work4,.work3,.work2,.work1{
-  margin: 20px;
-  width: 100%;
-  border: 3px solid black;
-} */
-.col-md-3 img{
+
+.col-md-3 img {
   margin: 10px;
   width: 100%;
-  /* border: 3px solid black; */
+
 }
-#portfolio-row{
+
+#portfolio-row {
   padding-top: 2%;
 }
 
 /* contact us section */
-.contact{
+.contact {
   background-image: url("../images/c_image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,38 +114,39 @@ h2{
   color: white;
   padding-top: 3%;
   text-align: center;
-  /* justify-content: center; */
+
 }
-.form-group{
+
+.form-group {
   justify-content: center;
-  /* background: transparent; */
   padding: .5%;
-  /* padding-bottom: 3%; */
 }
-#name,#email,#message{
+
+#name,
+#email,
+#message {
   background: transparent;
   color: white;
-  
 }
-#name,#email{
+
+#name,
+#email {
   width: 30%;
 }
-#message{
+
+#message {
   width: 50%;
   resize: none;
 }
 
 /* footer section */
-footer{
+footer {
   padding-top: 3%;
   text-align: center;
 }
-footer ul li{
+
+footer ul li {
   display: inline;
   list-style-type: none;
   margin: 1%;
 }
-
-
-
-
