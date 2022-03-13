@@ -77,6 +77,9 @@ h2{
 }
 
 /* portfolio section */
+.portfolio{
+  padding-top: 2%;
+}
 #work4Text h3, #work3Text h3, #work2Text h3, #work5Text h3,#work6Text h3, #work7Text h3, #work8Text h3, #work1Text h3{
   display: none;
 }
