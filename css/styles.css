@@ -7,6 +7,7 @@
   text-align: center;
   text-transform: uppercase;
   color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .logo {
@@ -26,7 +27,8 @@
 }
 
 .mouse-click {
-  padding-top: 8%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 /* About us section */
@@ -159,9 +161,12 @@ footer ul li {
   margin: 1%;
 }
 .buttons{
-  background: transparent;;
-  line-height: 20px;
   padding-bottom: 2%;
+  width: 100%;
+  padding-left: 44%;
+}
+.button{
+  background-color:darkgray;
   border: none;
-
+  border-radius: 4px;
 }
