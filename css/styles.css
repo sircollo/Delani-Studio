@@ -75,3 +75,18 @@ h2{
   text-align: center;
   padding-top: 3%;  
 }
+
+/* portfolio section */
+#work4Text h3, #work3Text h3, #work2Text h3, #work1Text h3{
+  display: none;
+}
+/* .work4,.work3,.work2,.work1{
+  margin: 20px;
+  width: 100%;
+  border: 3px solid black;
+} */
+.col-md-3 img{
+  margin: 10px;
+  width: 100%;
+  /* border: 3px solid black; */
+}
