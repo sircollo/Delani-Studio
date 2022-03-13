@@ -101,5 +101,12 @@ $(document).ready(function () {
   });
   //////////////////// 
 
-
+  let btn = document.createElement("button");
+  btn.innerHTML = "Send";
+  var buttons = document.getElementsByClassName("buttons")[0];
+  buttons.appendChild(btn);
+  buttons.addEventListener("click",function(){
+    alert("sawa");
   });
+
+});
