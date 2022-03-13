@@ -97,3 +97,37 @@ h2{
 #portfolio-row{
   padding-top: 2%;
 }
+
+/* contact us section */
+.contact{
+  background-image: url("../images/c_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  color: white;
+  padding-top: 3%;
+  text-align: center;
+  /* justify-content: center; */
+}
+.form-group{
+  justify-content: center;
+  /* background: transparent; */
+  padding: .5%;
+  /* padding-bottom: 3%; */
+}
+#name,#email,#message{
+  background: transparent;
+  color: white;
+  
+}
+#name,#email{
+  width: 30%;
+}
+#message{
+  width: 50%;
+  resize: none;
+}
+
+
+
+
