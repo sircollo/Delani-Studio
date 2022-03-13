@@ -77,9 +77,10 @@ h2{
 }
 
 /* portfolio section */
-#work4Text h3, #work3Text h3, #work2Text h3, #work1Text h3{
+#work4Text h3, #work3Text h3, #work2Text h3, #work5Text h3,#work6Text h3, #work7Text h3, #work8Text h3, #work1Text h3{
   display: none;
 }
+
 /* .work4,.work3,.work2,.work1{
   margin: 20px;
   width: 100%;
@@ -89,4 +90,7 @@ h2{
   margin: 10px;
   width: 100%;
   /* border: 3px solid black; */
+}
+#portfolio-row{
+  padding-top: 2%;
 }
