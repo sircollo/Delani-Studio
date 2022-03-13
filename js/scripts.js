@@ -45,7 +45,61 @@ $(document).ready(function () {
   $("#work3Text h3").mouseleave(function () {
     $("#work3Text h3").hide();
   });
-  
+  /////////////////////
+  $("#work2").mouseover(function () {
+    $("#work2Text h3").show();
+    $("#work2Text h3").css("background","transparent");
+    $("#work2Text h3").css("paddingTop","35%");
+  });
+  $("#work2Text h3").mouseleave(function () {
+    $("#work2Text h3").hide();
+  });
+  //////////////////////
+  $("#work1").mouseover(function () {
+    $("#work1Text h3").show();
+    $("#work1Text h3").css("background","transparent");
+    $("#work1Text h3").css("paddingTop","35%");
+  });
+  $("#work1Text h3").mouseleave(function () {
+    $("#work1Text h3").hide();
+  });
+  //////////////////////
+  $("#work5").mouseover(function () {
+    $("#work5Text h3").show();
+    $("#work5Text h3").css("background","transparent");
+    $("#work5Text h3").css("paddingTop","35%");
+  });
+  $("#work5Text h3").mouseleave(function () {
+    $("#work5Text h3").hide();
+  });
+  //////////////////////
+  $("#work6").mouseover(function () {
+    $("#work6Text h3").show();
+    $("#work6Text h3").css("background","transparent");
+    $("#work6Text h3").css("paddingTop","35%");
+  });
+  $("#work6Text h3").mouseleave(function () {
+    $("#work6Text h3").hide();
+  });
+  ///////////////////////
+  $("#work7").mouseover(function () {
+    $("#work7Text h3").show();
+    $("#work7Text h3").css("background","transparent");
+    $("#work7Text h3").css("paddingTop","35%");
+  });
+  $("#work7Text h3").mouseleave(function () {
+    $("#work7Text h3").hide();
+  });
+  ///////////////////////
+  $("#work8").mouseover(function () {
+    $("#work8Text h3").show();
+    $("#work8Text h3").css("background","transparent");
+    $("#work8Text h3").css("paddingTop","35%");
+  });
+  $("#work8Text h3").mouseleave(function () {
+    $("#work8Text h3").hide();
+  });
+  //////////////////// 
 
 
   });
