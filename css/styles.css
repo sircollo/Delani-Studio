@@ -92,6 +92,13 @@ h2 {
 #work8Text h3,
 #work1Text h3 {
   display: none;
+  color: blue;
+  position: absolute;
+  /* padding-top: 7%; */
+  width: 100%;
+  height: 100%;
+  top: 35%;
+  text-align: center;
 }
 
 
