@@ -92,12 +92,11 @@ h2 {
 #work8Text h3,
 #work1Text h3 {
   display: none;
-  color: blue;
+  color: white;
   position: absolute;
   /* padding-top: 7%; */
   width: 100%;
   height: 100%;
-  top: 35%;
   text-align: center;
 }
 
@@ -158,4 +157,11 @@ footer ul li {
   display: inline;
   list-style-type: none;
   margin: 1%;
+}
+.buttons{
+  background: transparent;;
+  line-height: 20px;
+  padding-bottom: 2%;
+  border: none;
+
 }
