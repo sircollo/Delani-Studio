@@ -27,5 +27,25 @@ $(document).ready(function () {
     $("#productsImage").show();
   });
 
+  // portfolio works
+  $("#work4").mouseover(function () {
+    $("#work4Text h3").show();
+    $("#work4Text h3").css("background","transparent");
+    $("#work4Text h3").css("paddingTop","35%");
+  });
+  $("#work4Text h3").mouseleave(function () {
+    $("#work4Text h3").hide();
+  });
+  ////////////////////////////////
+  $("#work3").mouseover(function () {
+    $("#work3Text h3").show();
+    $("#work3Text h3").css("background","transparent");
+    $("#work3Text h3").css("paddingTop","35%");
+  });
+  $("#work3Text h3").mouseleave(function () {
+    $("#work3Text h3").hide();
+  });
+  
+
 
   });
