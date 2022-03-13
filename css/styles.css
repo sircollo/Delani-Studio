@@ -103,6 +103,7 @@ h2 {
 
 #portfolio-row {
   padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 /* contact us section */
@@ -132,6 +133,7 @@ h2 {
 #name,
 #email {
   width: 30%;
+  margin-inline: 1%;
 }
 
 #message {
